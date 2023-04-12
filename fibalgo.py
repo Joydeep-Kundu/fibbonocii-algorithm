@@ -4,7 +4,7 @@ def fibonacii(num,lis):
     return fibonacii(num-1,[lis[1],lis[0]+lis[1]])
 
 def main():
-    print(fib(8,[0,1]))
+    print(fibonacii(8,[0,1]))
 
 if __name__=='__main__':
     main()
